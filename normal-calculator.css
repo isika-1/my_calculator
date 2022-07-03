@@ -1,0 +1,191 @@
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 98vh;
+    width: 95vw;
+}
+
+#heading
+{
+    text-align: center;
+    color: rgb(255, 255, 255, 0.8);
+    font-family: monospace;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.calculator-body
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#calc
+{
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 480px;
+    width: 300px;
+    margin: 0px 10px 20px 10px;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+#hd
+{
+    height: 45%;
+    background-color: rgb(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.4);
+}
+
+#calculating-space
+{
+    height: 70%;
+    margin: 10px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px inset rgb(255, 255, 255, 0.3);
+}
+
+#calcdisp
+{
+    height: 45%;
+    width: 85%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    text-align: right;
+    color: rgb(255, 255, 255, 0.8);
+    font-family: Verdana;
+    font-size: 20px;
+    word-break: break-all;
+}
+
+#resdisp
+{
+    height: 15%;
+    width: 85%;
+    margin: auto;
+    margin-top: 5px;
+    border-top: 0.6px solid rgb(255, 255, 255, 0.3);
+    padding: 10px;
+    color: rgb(255, 255, 255, 0.8);
+    text-align: right;
+    font-family: Verdana;
+    font-size: 22px;
+}
+
+#extra-features
+{
+    display: inline-block;
+    text-align: center; 
+    margin: 5px;
+    padding: 0px;
+}
+
+#ef
+{
+    display: inline-block;
+    margin: 5px;
+}
+
+#ef button
+{
+    height: 35px;
+    width: 40px;
+    color: rgb(255, 255, 255, 0.8);
+    padding: 6px 6px;  
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px outset rgb(255, 255, 255, 0.3);
+    margin: 5px;
+    position: static;
+    cursor: pointer;
+} 
+
+#ft
+{
+    height: 50%;
+    background-color: rgb(255, 255, 255, 0);
+    margin: 10px;
+}
+
+#button-row
+{
+    margin: 5px;
+    padding: 0px;
+}
+
+#button-row button
+{
+    font-size: 18px;
+    border: 2px outset rgb(255, 255, 255, 0.25);
+    height: 40px;
+    width: 40px;
+    margin: 1px 10px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255, 0.8);
+    padding: 5px 5px;  
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+} 
+
+#history
+{
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 480px;
+    width: 300px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+#histhead
+{
+    text-align: center;
+    color: rgb(255, 255, 255, 0.8);
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#histspace
+{
+    height: 70%;
+    width: 85%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: right;
+    border: 2px inset rgb(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255, 0.8); 
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Verdana;
+    font-size: 15px;
+    overflow-y: scroll;
+    transition: all 2s ease-in-out;
+}
+
+#histspace::-webkit-scrollbar 
+{
+    display: none;
+}
+
+#copyright p
+{
+    color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    padding-bottom: 10px; 
+    padding-top: 0px;
+}

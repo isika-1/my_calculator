@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./normal-calculator.css">
+        <title>My Calculator</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./calculator-icon.png">
+        <script src="https://kit.fontawesome.com/8ac0036aeb.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="calculator, add, subtract, multiply, divide">
+    </head>
+    <body>
+        <header>
+            <h1 id="heading">Calculator</h1>
+        </header>
+        <div class = "calculator-body">
+            <div id = "calc">
+                <div id = "hd">
+                    <div id="calculating-space">
+                        <div id="calcdisp"></div>
+                        <div id="resdisp"></div>
+                    </div>
+                    <ul type="none" id="extra-features">
+                        <li id="ef"><button type="submit" class="btn" id="all-clear">AC</li>
+                        <li id="ef"><button type="submit" class="btn" id="turn-off">OFF</button></li>
+                    </ul>
+                </div>
+                <div id = "ft">
+                    <div id="button-row">
+                        <button type="submit" class="btn" id="braces-op">(</button>
+                        <button type="submit" class="btn" id="braces-cl">)</button>
+                        <button type="submit" class="btn" id="percent" >%</button>
+                        <button type="submit" class="btn" id="divide">/</button>
+                    </div>
+                    <div id="button-row">
+                        <button type="submit" class="btn num">7</button>
+                        <button type="submit" class="btn num">8</button>
+                        <button type="submit" class="btn num">9</button>
+                        <button type="submit" class="btn" id="multiply">*</button>
+                    </div>
+                    <div id="button-row">
+                        <button type="submit" class="btn num">4</button>
+                        <button type="submit" class="btn num">5</button>
+                        <button type="submit" class="btn num">6</button>
+                        <button type="submit" class="btn" id="subtract">-</button>
+                    </div>
+                    <div id="button-row">
+                        <button type="submit" class="btn num">1</button>
+                        <button type="submit" class="btn num">2</button>
+                        <button type="submit" class="btn num">3</button>
+                        <button type="submit" class="btn" id="addition">+</button>
+                    </div>
+                    <div id="button-row">
+                        <button type="submit" class="btn" id="bkspc"><i class="fas fa-backspace"></i></button>
+                        <button type="submit" class="btn num">0</button>
+                        <button type="submit" class="btn" id="decimal">.</button>
+                        <button type="submit" class="btn" id="equals">=</button>
+                    </div>
+                </div>
+            </div>
+            <div id = "history">
+                <h4 id="histhead">History</h4>
+                <div id="histspace"></div>
+            </div>
+        </div>
+        <footer id="copyright">
+            <p>&copy; Isika Samanta 2022</p>
+        </footer>
+        <script src="./normal-calculator.js"></script>
+    </body>
+</html>
