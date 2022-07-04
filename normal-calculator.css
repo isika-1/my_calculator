@@ -62,11 +62,10 @@ body
     margin: auto;
     margin-top: 5px;
     padding: 10px;
-    /* border: 2px solid red; */
     text-align: right;
     color: rgb(255, 255, 255, 0.8);
     font-family: Verdana;
-    font-size: 20px;
+    font-size: 15px;
     word-break: break-all;
 }
 
@@ -81,7 +80,7 @@ body
     color: rgb(255, 255, 255, 0.8);
     text-align: right;
     font-family: Verdana;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 #extra-features
@@ -122,6 +121,10 @@ body
 {
     margin: 5px;
     padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
 }
 
 #button-row button
@@ -130,7 +133,7 @@ body
     border: 2px outset rgb(255, 255, 255, 0.25);
     height: 40px;
     width: 40px;
-    margin: 1px 10px;
+    margin: 1px 1px;
     border-radius: 50%;
     color: rgb(255, 255, 255, 0.8);
     padding: 5px 5px;  
@@ -172,7 +175,9 @@ body
     font-family: Verdana;
     font-size: 15px;
     overflow-y: scroll;
+    overflow-x: scroll;
     transition: all 2s ease-in-out;
+    
 }
 
 #histspace::-webkit-scrollbar 
